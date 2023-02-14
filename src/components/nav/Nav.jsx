@@ -8,7 +8,7 @@ import {BiUser, BiMessageRoundedDetail} from 'react-icons/bi'
 const Nav = () => {
   return (
     <nav>
-      <a href="#"><GoHome/></a>
+      <a href="#" className='active'><GoHome/></a>
       <a href="#about"><BiUser/></a>
       <a href="#experience"><RiComputerLine/></a>
       <a href="#services"><RiServiceLine/></a>
