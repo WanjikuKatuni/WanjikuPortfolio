@@ -61,3 +61,26 @@ header {
 }
 
 
+/* =========================media queries =================== */
+
+
+/* medium devices */
+
+@media screen and (max-width: 1024px){
+    header{
+        height: 68vh;
+    }
+}
+
+
+/* small devices */
+
+@media screen and (max-width: 600px){
+    header{
+        height: 100vh;
+    }
+    .header__socials,
+     .scroll__down {
+        display: none;
+    }
+}
