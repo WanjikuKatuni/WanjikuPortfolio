@@ -1,5 +1,8 @@
 import React from 'react'
-import {FaHtml5} from 'react-icons/fa'
+import './experience.css'
+import {FaHtml5, FaCss3Alt, FaReact, FaAngular, FaBootstrap} from 'react-icons/fa'
+import {TbBrandJavascript} from 'react-icons/tb'
+import {SiTailwindcss, SiRubyonrails, SiPython, SiPostgresql} from 'react-icons/si'
 
 
 const Experience = () => {
@@ -13,39 +16,53 @@ const Experience = () => {
         <h3>Frontend Development</h3>
         <div className="expereince__content">
           <article className="experience__details">
-            <FaHtml5/>
-            <h4>HTML</h4>
-            <small className='text-light'>Experienced</small>
+            <FaHtml5 className='expereince__details-icon'/>
+            <div>
+              <h4>HTML</h4>
+              <small className='text-light'>Experienced</small>
+            </div>
           </article>
           <article className="experience__details">
-            <FaHtml5/>
-            <h4>CSS</h4>
-            <small className='text-light'>Intermediate</small>
+            <FaCss3Alt className='expereince__details-icon'/>
+            <div>
+              <h4>CSS</h4>
+              <small className='text-light'>Intermediate</small>
+            </div>
           </article>
           <article className="experience__details">
-            <FaHtml5/>
-            <h4>JavaScript</h4>
-            <small className='text-light'>Experienced</small>
+            <TbBrandJavascript className='expereince__details-icon'/>
+            <div>
+              <h4>JavaScript</h4>
+              <small className='text-light'>Experienced</small>
+            </div>
           </article>
           <article className="experience__details">
-            <FaHtml5/>
-            <h4>React</h4>
-            <small className='text-light'>Experienced</small>
+            <FaReact className='expereince__details-icon'/>
+            <div>
+              <h4>React</h4>
+              <small className='text-light'>Experienced</small>
+            </div>
           </article>
           <article className="experience__details">
-            <FaHtml5/>
-            <h4>Angular</h4>
-            <small className='text-light'>Intermediate</small>
+            <FaAngular className='expereince__details-icon'/>
+            <div>
+              <h4>Angular</h4>
+              <small className='text-light'>Intermediate</small>
+            </div>
           </article>
           <article className="experience__details">
-            <FaHtml5/>
-            <h4>Bootstrap</h4>
-            <small className='text-light'>Experienced</small>
+            <FaBootstrap className='expereince__details-icon'/>
+            <div>
+              <h4>Bootstrap</h4>
+              <small className='text-light'>Experienced</small>
+            </div>
           </article>
           <article className="experience__details">
-            <FaHtml5/>
-            <h4>Tailwind</h4>
-            <small className='text-light'>Intermediate</small>
+            <SiTailwindcss className='expereince__details-icon'/>
+            <div>
+              <h4>Tailwind</h4>
+              <small className='text-light'>Intermediate</small>
+            </div>
           </article>
         </div>
       </div>
@@ -55,21 +72,27 @@ const Experience = () => {
         <h3>Backend Development</h3>
           <div className="expereince__content">
             <article className="experience__details">
-              <FaHtml5/>
-              <h4>Rails</h4>
-              <small className='text-light'>Experienced</small>
+              <SiRubyonrails className='expereince__details-icon'/>
+              <div>
+                <h4>Rails</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
-              <FaHtml5/>
-              <h4>Python</h4>
-              <small className='text-light'>Intermediate</small>
+              <SiPython className='expereince__details-icon'/>
+              <div>
+                <h4>Python</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
             </article>
             <article className="experience__details">
-              <FaHtml5/>
-              <h4>PostgreSQL</h4>
-              <small className='text-light'>Intermediate</small>
+              <SiPostgresql className='expereince__details-icon'/>
+              <div>
+                <h4>PostgreSQL</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
             </article>
-            </div>
+          </div>
       </div>
     </div>
    </section>
