@@ -5,7 +5,7 @@ import AV2 from '../../assets/av2.jpg'
 import AV3 from '../../assets/av3.jpg'
 
 // import Swiper core and required modules
-import { Navigation, A11y } from 'swiper';
+import { Pagination} from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -41,7 +41,13 @@ const Testimonials = () => {
     <section>
       <h5>Client reviews</h5>
       <h2>Testimonials</h2>
-      <Swiper className="container testimonials__container">
+      <Swiper className="container testimonials__container"
+      // install Swiper modules
+      modules={[Pagination]}
+      spaceBetween={40}
+      slidesPerView={1}
+      pagination={{ clickable: true }}
+        >        
 
         {
           data.map(({avatar,name, review}, index)=> {
