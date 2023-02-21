@@ -25,3 +25,42 @@
     width: 50%;
     margin: 0.8rem auto 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================media queries =================== */
+
+
+/* medium devices */
+
+@media screen and (max-width: 1024px){
+    .container.testimonials__container {
+        width: 60%;
+    }
+ }
+ 
+ 
+ /* small devices */
+ 
+ @media screen and (max-width: 600px){
+    .container.testimonials__container {
+        width: var(--container-width-sm);
+    }
+ }
