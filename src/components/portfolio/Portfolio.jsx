@@ -10,6 +10,57 @@ import IMG7 from '../../assets/portimg7.jpg'
 import IMG8 from '../../assets/portimg8.jpg'
 import IMG9 from '../../assets/portimg9.jpg'
 
+// portfolio data
+const data = [
+  {
+    id: 1,
+    image: IMG1,
+    title: 'Ticket management System using QR scan',
+    github: 'http://github.com',
+    demo: 'http://github.com'
+
+  },
+  {
+    id: 2,
+    image: IMG2,
+    title: 'Tendering management system',
+    github: 'http://github.com',
+    demo: 'http://github.com'
+
+  },
+  {
+    id: 3,
+    image: IMG3,
+    title: 'Portfolio website',
+    github: 'http://github.com',
+    demo: 'http://github.com'
+
+  },
+  {
+    id: 4,
+    image: IMG4,
+    title: 'Template designs on figma',
+    github: 'http://github.com',
+    demo: 'http://github.com'
+
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title: 'Twitter clone',
+    github: 'http://github.com',
+    demo: 'http://github.com'
+
+  }, {
+    id: 4,
+    image: IMG4,
+    title: 'Secret santa clone',
+    github: 'http://github.com',
+    demo: 'http://github.com'
+
+  }
+]
+
 
 
 const Portfolio = () => {
