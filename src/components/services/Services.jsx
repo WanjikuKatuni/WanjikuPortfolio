@@ -103,10 +103,7 @@ const Services = () => {
               <BsPatchCheckFill className='service__list-icon'/>
               <p>Lorem ipsum dolor sit amet consectetur elit.</p>
             </li>
-            <li>
-              <BsPatchCheckFill className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-            </li>
+
           </ul>
         </article>
         {/* end of content creation */}
